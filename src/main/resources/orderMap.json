@@ -1,0 +1,35 @@
+{
+  "datepattern": "yyyy-MM-dd",
+  "config": [
+    {
+      "csvheader": "order_number",
+      "datatype": "Integer",
+      "nullAllowed": "n"
+    },
+    {
+      "csvheader": "order_date",
+      "datatype": "Date",
+      "nullAllowed": "n"
+    },
+    {
+      "csvheader": "order_item",
+      "datatype": "String",
+      "nullAllowed": "n"
+    },
+    {
+      "csvheader": "unit_price",
+      "datatype": "Double",
+      "nullAllowed": "n"
+    },
+    {
+      "csvheader": "units",
+      "datatype": "Integer",
+      "nullAllowed": "n"
+    },
+    {
+      "csvheader": "discount",
+      "datatype": "Double",
+      "nullAllowed": "y"
+    }
+  ]
+}

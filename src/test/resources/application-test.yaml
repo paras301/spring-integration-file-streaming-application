@@ -1,0 +1,4 @@
+# Spring boot debug options
+debug: ${DEBUG:true}
+
+

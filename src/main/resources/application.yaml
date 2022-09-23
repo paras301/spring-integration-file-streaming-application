@@ -1,0 +1,30 @@
+# spring boot props
+spring:
+  application:
+    name: spring-integration-file-streaming-application
+
+server:
+  port: ${SERVER_PORT:8080}
+  tomcat:
+    threads:
+      max: ${MAX_TOMCAT_THREADS:200}
+
+# logging options
+logging:
+  level:
+    root: error
+    org.springframework: error
+    org.apache: error
+    com.company: ${LOG_LEVEL:info}
+
+# Spring boot debug options
+debug: ${DEBUG:false}
+
+# app properties
+app:
+  csv_input_dir: ${CSV_INPUT_DIR:C:\Users\pbansal2\Downloads\}
+  csv_file_pattern: ${CSV_FILE_PATTERN:*.csv}
+  csv_processing_dir: ${CSV_PROCESSING_DIR:C:\Users\pbansal2\Downloads\processing\}
+  csv_success_dir: ${CSV_SUCCESS_DIR:C:\Users\pbansal2\Downloads\success\}
+  csv_error_dir: ${CSV_ERROR_DIR:C:\Users\pbansal2\Downloads\error\}
+  csv_output_dir: ${CSV_OUTPUT_DIR:C:\Users\pbansal2\Downloads\output\}
